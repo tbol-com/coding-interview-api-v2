@@ -15,7 +15,7 @@ export const seedDb = async () => {
       const recipient = `${faker.name.firstName()} ${faker.name.lastName()}`;
 
       payments.push({
-        id: new mongoose.Types.ObjectId().toString(),
+        _id: new mongoose.Types.ObjectId().toString(),
         recipient,
         amount: faker.datatype.number({
           min: 1,
