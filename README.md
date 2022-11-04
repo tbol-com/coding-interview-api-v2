@@ -48,13 +48,4 @@ Welcome to the coding interview api test.
 
 <br>
 
-5. We can now start the technical part of the test. We have outlined some guidance below:
-   - Work through one task at a time starting at number one. Once complete, demostrate the solution is working as expected using the postman collection.
-   - We want to hear your thought process. Please describe your approach / thought process as you go through the tasks.
-   - Utilise online resources as you see fit in order to help you complete each task, but let us know what you're planning to do before you do it.
-   - We dont expect every challenege to be competed so work through the tasks at your own pace.
-   - Ask any questions that will help you complete the tasks.
-
-<br>
-
 5. You can now begin working on the task 1. Good luck!
