@@ -1,9 +1,9 @@
 import { PaymentModel } from "./payment.model";
 
 export const createPayment = () => {
-  // ...await new PaymentModel...
+    // TODO implementation that uses the imported model
 };
 
 export const getPayments = () => {
-  // ...await PaymentModel....
-};
+    // TODO implementation that uses the imported model
+}

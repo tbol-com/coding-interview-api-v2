@@ -17,15 +17,14 @@ class PaymentController implements Controller {
     request: Request<{}, {}, {}>,
     response: Response
   ) => {
-
-    // ...await createPayment(....
+    // TODO implementation to call the service
   };
 
   private getAllPayments = async (
     request: Request<{}, {}, {}>,
     response: Response
   ) => {
-    // ...await getPayments(...
+    // TODO implementation to call the service
   };
 }
 
