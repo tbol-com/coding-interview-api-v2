@@ -1,0 +1,23 @@
+on:
+  public:
+
+# Only one of these should be running at a time
+concurrency:
+  group: ${{ github.workflow }}
+
+jobs:
+  set-repo-internal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait 2 hours
+        run: sleep 7200
+      - name: Set repo to internal
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.BRANCH_PROTECTION_BYPASS}}
+          script: |
+            github.repos.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              visibility: 'internal'
+            })
