@@ -12,11 +12,11 @@ jobs:
       - name: Wait 2 hours
         run: sleep 7200
       - name: Set repo to internal
-        uses: actions/github-script@v3
+        uses: actions/github-script@v6
         with:
-          github-token: ${{secrets.BRANCH_PROTECTION_BYPASS}}
+          github-token: ${{secrets.CODING_TEST_VISIBILITY_TOKEN}}
           script: |
-            github.repos.update({
+            github.rest.repos.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
               visibility: 'internal'
