@@ -19,7 +19,7 @@
     "express": "^4.17.1",
     "express-async-handler": "^1.2.0",
     "mongodb-memory-server": "^8.9.3",
-    "mongoose": "^6.6.5",
+    "mongoose": "^6.11.3",
     "msw": "^0.47.4",
     "uuid": "^9.0.0"
   },
